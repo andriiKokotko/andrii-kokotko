@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    margin: 0;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    margin: 0;
+    background-image: url(img/background.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.block {
+    position: static;
+    background-color: #333333b0;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header nav {
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+header h1 {
+    color: #ffffff;
+    font-family: 'Architects Daughter';
+    text-align: center;
+    vertical-align: middle;
+}
+
+header img {
+    border: 3pt solid #fff;
+    border-radius: 50%;
+    width: 191px;
+    height: 191px;
+    margin-top: 10px;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+}
+
+nav a:hover {
+    background-color: rgb(8, 114, 201);;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    background-color: #fff;
+}
+
+nav [href="index.html"] {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+nav [href="#contact"] {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* About Me */
+
+#about {
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+#about img {
+    border: 3pt solid #fff;
+    border-radius: 50%;
+    width: 216px;
+    height: 216px;
+}
+
+.line {
+    display: inline-block;
+    width: 5px;
+    height: 216px;
+    background-color: yellow;
+}
+
+#about p {
+    margin: 0;
+    display: inline-block;
+}
+
+/* Skills */
+
+#skills {
+    margin: 0;
+    background-color: #444444;
+    padding-bottom: 30px;
+}
+
+#skills h2 {
+    margin: 0;
+    color: #fff;
+}
+
+.item {
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    background-color: white;
+    color: black;
+}
+
+.item img {
+    width: 170px;
+    height: 200px;
+}
+
+/* Follow Me */
+
+#follow {
+    background-color: #ebebeb;
+}
+
+#follow ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#follow li {
+    list-style: none;
+}
+
+#follow i {
+    color: black;
+}
+
+/* Find Me */
+
+#map {
+    background-color: #333333;
+}
+
+#map h2 {
+    color: #fff;
+}
+
+/* Contact Me */
+
+[type="submit"] {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(78, 121, 236);
+    color: #fff;
+    border: none;
+}
+
+[type="submit"]:hover {
+    background-color: rgb(41, 37, 240);
+}
+
+/* Footer */
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(7, 161, 250);
+}
+
